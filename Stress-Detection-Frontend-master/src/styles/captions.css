@@ -1,0 +1,8 @@
+.captions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    width: 500px;
+}

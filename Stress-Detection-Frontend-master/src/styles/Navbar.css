@@ -1,0 +1,28 @@
+
+
+.nav{
+    position: sticky;
+    top: 0px;
+    height: 40px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
+    background-color: #242424;
+}
+.logo{
+    font-weight: 600;
+}
+.links{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+}

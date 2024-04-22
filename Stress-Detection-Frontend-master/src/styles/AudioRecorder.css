@@ -1,0 +1,35 @@
+.audio-heading{
+    font-weight: 700;
+}
+.audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.audio-container{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid white;
+    padding: 20px;
+    margin-bottom: 30px;
+
+}
+
+.audio-buttons{
+    display: flex;
+    gap:10px;
+}
+
+@media (max-width: 640px) {
+    .audio-container{
+        width: 300px;
+        height: 150px;
+    }
+  }
+  
